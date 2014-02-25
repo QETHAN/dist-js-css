@@ -1,22 +1,4 @@
 {
-	"domain": {
-		"dev": "xxx",
-		"test": "xxx",
-		"prod": "xxx",
-		"use": "dev"
-	},
-	"src": {
-		"js": "./js",
-		"css": "./css"
-	},
-	"dest": {
-		"js": "./dist/js",
-		"css": "./dist/css"
-	},
-  "devDependencies": {
-    "uglify-js": "~2.4.12",
-    "clean-css": "~2.1.1"
-  },
   "name": "dist-js-css",
   "version": "0.0.1",
   "description": "minify js,css",
