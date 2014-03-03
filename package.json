@@ -1,33 +1,19 @@
 {
-	"domain": {
-		"dev": "xxx",
-		"test": "xxx",
-		"prod": "xxx",
-		"use": "dev"
-	},
-	"src": {
-		"js": "./js",
-		"css": "./css"
-	},
-	"dest": {
-		"js": "./dist/js",
-		"css": "./dist/css"
-	},
-  "devDependencies": {
-    "uglify-js": "~2.4.12",
-    "clean-css": "~2.1.1"
-  },
   "name": "dist-js-css",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "minify js,css",
   "main": "dist-js-css.js",
   "dependencies": {
     "clean-css": "~2.1.1",
     "uglify-js": "~2.4.12"
   },
+  "bin": {
+    "dist-jc": "bin/dist-js-css"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "readmeFilename": "README.md",
   "keywords": [
     "minify",
     "js",
@@ -35,5 +21,14 @@
     "dist"
   ],
   "author": "qbylucky",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/QETHAN/dist-js-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QETHAN/dist-js-css/issues"
+  },
+  "homepage": "https://github.com/QETHAN/dist-js-css",
+  "devDependencies": {}
 }
